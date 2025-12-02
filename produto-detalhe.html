@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Amour</title>
+    <link rel="stylesheet" href="produto-detalhe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="lamourlogo-_1_.ico">
+
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>L'AMOUR</h1>
+                <p>Confeitaria Caseira</p>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="pagamento.html">Pagamento</a></li>
+                </ul>
+            </nav>
+            
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Detalhe do Produto -->
+    <section class="produto-detalhe">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> &gt; 
+                <a href="produtos.html">Produtos</a> &gt; 
+                <span id="produto-nome">Pão de Mel Especial</span>
+            </div>
+            
+            <div class="produto-container">
+                <div class="produto-imagem">
+                    <div class="imagem-principal" id="imagem-principal" style="background-color: #f8e1e7;"></div>
+                    <div class="imagens-mini">
+                        <div class="mini-img ativa" style="background-color: #f8e1e7;" data-img="1"></div>
+                        <div class="mini-img" style="background-color: #f5e1e7;" data-img="2"></div>
+                        <div class="mini-img" style="background-color: #f8e8e1;" data-img="3"></div>
+                        <div class="mini-img" style="background-color: #f8f1e1;" data-img="4"></div>
+                    </div>
+                </div>
+                
+                <div class="produto-info-detalhe">
+                    <h1 id="produto-titulo">Pão de Mel Especial</h1>
+                    <div class="produto-categoria" id="produto-categoria">Pães de Mel</div>
+                    
+                    <div class="produto-avaliacao">
+                        <div class="estrelas">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="avaliacao-texto">(4.5/5 - 32 avaliações)</span>
+                    </div>
+                    
+                    <div class="produto-preco-detalhe" id="produto-preco">preço</div>
+                    
+                    <div class="produto-descricao">
+                        <h3>Descrição do Produto</h3>
+                        <p id="produto-descricao-texto">INFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAO</p>
+                    </div>
+                    
+                    <div class="produto-ingredientes">
+                        <h3>Ingredientes</h3>
+                        <ul id="produto-ingredientes">
+                            <li>pao</li>
+                            <li>Mel</li>
+                            <li>pao</li>
+                            <li>mel</li>
+                            <li>pao</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="produto-quantidade">
+                        <h3>Quantidade</h3>
+                        <div class="quantidade-controle">
+                            <button class="qtd-btn menos">-</button>
+                            <input type="number" value="1" min="1" max="20" class="qtd-input" id="quantidade">
+                            <button class="qtd-btn mais">+</button>
+                        </div>
+                        <div class="estoque-info">
+                            <i class="fas fa-check-circle"></i> Em estoque
+                        </div>
+                    </div>
+                    
+                    <div class="produto-acoes">
+                        <button class="btn-comprar-detalhe" id="btn-comprar">
+                            <i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho
+                        </button>
+                        <a href="#" class="btn-whatsapp-detalhe" id="btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Comprar pelo WhatsApp
+                        </a>
+                    </div>
+                    
+                    <div class="produto-info-entrega">
+                        <h3><i class="fas fa-shipping-fast"></i> Entrega e Retirada</h3>
+                        <p><i class="fas fa-check"></i> Entregamos na região de São Paulo</p>
+                        <p><i class="fas fa-check"></i> Retirada disponível na confeitaria</p>
+                        <p><i class="fas fa-check"></i> Encomendas com 48h de antecedência</p>
+                        <p><i class="fas fa-check"></i> Embalagem especial para presente</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="produto-informacoes-adicionais">
+                <div class="info-tabs">
+                    <button class="tab-btn active" data-tab="detalhes">Detalhes</button>
+                    <button class="tab-btn" data-tab="informacoes">Informações Adicionais</button>
+                    <button class="tab-btn" data-tab="reviews">Avaliações (32)</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="detalhes">
+                        <h3>Detalhes do Produto</h3>
+                        <p>Nosso Pão de Mel Especial é feito com uma receita exclusiva que passa de geração em geração. Cada unidade é cuidadosamente preparada com ingredientes selecionados e muito carinho.</p>
+                        <ul>
+                            <li><strong>Peso:</strong> 200g por unidade</li>
+                            <li><strong>Embalagem:</strong> Individual, pronta para presente</li>
+                            <li><strong>Validade:</strong> 30 dias</li>
+                            <li><strong>Conservação:</strong> Ambiente fresco e seco</li>
+                            <li><strong>Ingredientes principais:</strong> Farinha, mel, especiarias, chocolate</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-pane" id="informacoes">
+                        <h3>Informações Adicionais</h3>
+                        <p>Este produto contém glúten e pode conter traços de castanhas e amendoim. Não recomendado para pessoas com alergia a esses ingredientes.</p>
+                        <p><strong>Modo de consumo:</strong> Ideal para consumir acompanhado de um café ou chá. Pode ser guardado em local fresco e seco por até 30 dias.</p>
+                        <p><strong>Sugestão:</strong> Perfeito para presentear em ocasiões especiais como aniversários, datas comemorativas ou simplesmente para surpreender alguém querido.</p>
+                    </div>
+                    
+                    <div class="tab-pane" id="reviews">
+                        <h3>Avaliações dos Clientes</h3>
+                        <div class="review-item">
+                            <div class="review-header">
+                                <div class="review-estrelas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="review-autor">Maria Silva</span>
+                                <span class="review-data">15/03/2025</span>
+                            </div>
+                            <p class="review-texto">"O pão de mel mais delicioso que já experimentei! Perfeita combinação de mel e especiarias. Comprei para presentear e acabou ficando pra mim!"</p>
+                        </div>
+                        
+                        <div class="review-item">
+                            <div class="review-header">
+                                <div class="review-estrelas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="review-autor">João Santos</span>
+                                <span class="review-data">10/03/2025</span>
+                            </div>
+                            <p class="review-texto">"Excelente qualidade! O chocolate é de primeira e o mel tem um sabor incrível. Já é minha terceira compra e continuarei comprando."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="produtos-relacionados">
+                <h2>Produtos Relacionados</h2>
+                <div class="relacionados-grid">
+                    <!-- Produto 1 -->
+                    <div class="relacionado-item">
+                        <div class="relacionado-img" style="background-color: #f5e1e7;"></div>
+                        <h4>Pão de Mel</h4>
+                        <div class="relacionado-preco">preço</div>
+                        <a href="produto-detalhe.html?id=2">Ver Detalhes</a>
+                    </div>
+                    
+                    <!-- Produto 2 -->
+                    <div class="relacionado-item">
+                        <div class="relacionado-img" style="background-color: #f5f0e1;"></div>
+                        <h4>Cone de Chocolate</h4>
+                        <div class="relacionado-preco">preço</div>
+                        <a href="produto-detalhe.html?id=3">Ver Detalhes</a>
+                    </div>
+                    
+                    <!-- Produto 3 -->
+                    <div class="relacionado-item">
+                        <div class="relacionado-img" style="background-color: #e8f4e8;"></div>
+                        <h4>Brigadeiro</h4>
+                        <div class="relacionado-preco">preço</div>
+                        <a href="produto-detalhe.html?id=5">Ver Detalhes</a>
+                    </div>
+                    
+                    <!-- Produto 4 -->
+                    <div class="relacionado-item">
+                        <div class="relacionado-img" style="background-color: #f1e8f8;"></div>
+                        <h4>Cone de Morango</h4>
+                        <div class="relacionado-preco">preço</div>
+                        <a href="produto-detalhe.html?id=8">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>L'AMOUR</h3>
+                    <p>Confeitaria Caseira</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="pagamento.html">Pagamento</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contato">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone-alt"></i> +55 (11) 97258-9613</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp</p>
+                    <p><i class="fas fa-envelope"></i> contato@lamourconfeitaria.com</p>
+                </div>
+                
+                <div class="footer-redes">
+                    <h4>Redes Sociais</h4>
+                    <div class="redes-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 L'Amour Confeitaria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="produto-detalhe-script.js"></script>
+</body>
+</html>

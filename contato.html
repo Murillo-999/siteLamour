@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Amour</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="lamourlogo-_1_.ico">
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>L'AMOUR</h1>
+                <p>Confeitaria Caseira</p>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                    <li><a href="pagamento.html">Pagamento</a></li>
+                </ul>
+            </nav>
+            
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contato -->
+    <section class="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Estamos aqui para atender você!</p>
+            
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>WhatsApp</h3>
+                            <p>+55 (11) 97258-9613</p>
+                            <a href="https://wa.me/5511972589613" class="whatsapp-link" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Enviar mensagem
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Localização</h3>
+                            <p>Confeitaria Caseira L'Amour</p>
+                            <p>Atendemos por encomenda</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Horário de Atendimento</h3>
+                            <p>Atendimento 24h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Encomendas</h3>
+                            <p>Faça sua encomenda com antecedência</p>
+                            <p>Entregamos na região</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contato-form">
+                    <h3>Envie uma mensagem</h3>
+                    <form id="form-contato">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefone">Telefone/WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>L'AMOUR</h3>
+                    <p>Confeitaria Caseira</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="pagamento.html">Pagamento</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contato">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone-alt"></i>  +55 11 97258-9613</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 L'Amour Confeitaria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contato-script.js"></script>
+</body>
+</html>

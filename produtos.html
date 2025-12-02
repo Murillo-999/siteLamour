@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Amour</title>
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="lamourlogo-_1_.ico">
+
+</head>
+<body>
+    <!-- Header e Navegação -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>L'AMOUR</h1>
+                <p>Confeitaria Caseira</p>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html" class="active">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="pagamento.html">Pagamento</a></li>
+                </ul>
+            </nav>
+            
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Produtos -->
+    <section class="produtos">
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <p class="section-subtitle">Delícias feitas com carinho para adoçar seu dia</p>
+            
+            <div class="categorias">
+                <button class="categoria-btn active" data-categoria="todos">Todos</button>
+                <button class="categoria-btn" data-categoria="pacotes-mel">Pães de Mel</button>
+                <button class="categoria-btn" data-categoria="cones">Cones Recheados</button>
+                <button class="categoria-btn" data-categoria="doces-caseiros">Doces Caseiros</button>
+            </div>
+            
+            <div class="produtos-grid">
+                <!-- Produto 1 -->
+                <div class="produto-item" data-categoria="pacotes-mel">
+                    <div class="produto-img" style="background-color: #f8e1e7;"></div>
+                    <div class="produto-info">
+                        <h3>Pão de Mel Especial</h3>
+                        <p>INFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAO</p>
+                        <div class="produto-preco">preço</div>
+                        <a href="produto-detalhe.html?id=1" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+                
+                <!-- Produto 2 -->
+                <div class="produto-item" data-categoria="pacotes-mel">
+                    <div class="produto-img" style="background-color: #f5e1e7;"></div>
+                    <div class="produto-info">
+                        <h3>Pão de Mel</h3>
+                        <p>INFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAO</p>
+                        <div class="produto-preco">preço</div>
+                        <a href="produto-detalhe.html?id=2" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+                
+                <!-- Produto 3 -->
+                <div class="produto-item" data-categoria="cones">
+                    <div class="produto-img" style="background-color: #f5f0e1;"></div>
+                    <div class="produto-info">
+                        <h3>Cone de Chocolate</h3>
+                        <p>INFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAO</p>
+                        <div class="produto-preco">preço</div>
+                        <a href="produto-detalhe.html?id=3" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+                
+                <!-- Produto 4 -->
+                <div class="produto-item" data-categoria="cones">
+                    <div class="produto-img" style="background-color: #f0f5e1;"></div>
+                    <div class="produto-info">
+                        <h3>Cone de Doce de Leite</h3>
+                        <p>INFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAO</p>
+                        <div class="produto-preco">preço</div>
+                        <a href="produto-detalhe.html?id=4" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+                
+                <!-- Produto 5 -->
+                <div class="produto-item" data-categoria="doces-caseiros">
+                    <div class="produto-img" style="background-color: #e8f4e8;"></div>
+                    <div class="produto-info">
+                        <h3>Brigadeiro</h3>
+                        <p>INFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAOINFORMAÇAO</p>
+                        <div class="produto-preco">preço</div>
+                        <a href="produto-detalhe.html?id=5" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+                
+                <!-- Produto 6 -->
+                <div class="produto-item" data-categoria="doces-caseiros">
+                    <div class="produto-img" style="background-color: #e8e8f4;"></div>
+                    <div class="produto-info">
+                        <h3>Beijinho</h3>
+                        <p>Bjinho </p>
+                        <div class="produto-preco">preço</div>
+                        <a href="produto-detalhe.html?id=6" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+                
+                <!-- Produto 7 -->
+                <div class="produto-item" data-categoria="pacotes-mel">
+                    <div class="produto-img" style="background-color: #f8f1e1;"></div>
+                    <div class="produto-info">
+                        <h3>Pães de Mel</h3>
+                        <p>pao que tem mel OLOKO</p>
+                        <div class="produto-preco">preço</div>
+                        <a href="produto-detalhe.html?id=7" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+                
+                <!-- Produto 8 -->
+                <div class="produto-item" data-categoria="cones">
+                    <div class="produto-img" style="background-color: #f1e8f8;"></div>
+                    <div class="produto-info">
+                        <h3>Cone de Morango</h3>
+                        <p>é um cone de morango</p>
+                        <div class="produto-preco">preço</div>
+                        <a href="produto-detalhe.html?id=8" class="btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>L'AMOUR</h3>
+                    <p>Confeitaria Caseira</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="pagamento.html">Pagamento</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contato">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone-alt"></i> +55 11 97258-9613</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 L'Amour Confeitaria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="produtos-script.js"></script>
+</body>
+</html>
